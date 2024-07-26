@@ -1,0 +1,41 @@
+#!/usr/bin/python3
+Test Case 1:
+Input: add_integer(3, 4)
+Expected Output: 7
+
+Test Case 2:
+Input: add_integer(3)
+Expected Output: 101
+
+Test Case 3:
+Input: add_integer(3.5, 4.2)
+Expected Output: 7
+
+Test Case 4:
+Input: add_integer(-3, -4)
+Expected Output: -7
+
+Test Case 5:
+Input: add_integer(3.0, 4)
+Expected Output: 7
+
+Test Case 6:
+Input: add_integer(3, "four")
+Expected Output: TypeError with message "b must be an integer"
+
+Test Case 7:
+Input: add_integer("three", 4)
+Expected Output: TypeError with message "a must be an integer"
+
+Test Case 8:
+Input: add_integer(3, None)
+Expected Output: TypeError with message "b must be an integer"
+
+Test Case 9:
+Input: add_integer(None, 4)
+Expected Output: TypeError with message "a must be an integer"
+
+Test Case 10:
+Input: add_integer(1000000000, 1000000000)
+Expected Output: 2000000000
+
