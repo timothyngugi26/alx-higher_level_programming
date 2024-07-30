@@ -10,8 +10,8 @@ if (!filePath || !content) {
   process.exit(1);
 }
 
-fs.writeFile(process.argv[2], process.argv[3], 'utf8', function (err) {
+fs.writeFile(filePath, content, 'utf8', function (err) {
   if (err) {
-    console.log(err);
+    console.error(err);
   }
 });
