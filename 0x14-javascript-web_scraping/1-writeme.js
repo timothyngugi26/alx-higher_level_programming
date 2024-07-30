@@ -13,6 +13,6 @@ if (!filePath || !content) {
 fs.writeFile(filePath, content, 'utf8', function (err) {
   if (err) {
     console.error(err);
+	  process.exit(1);
   }
-	process.exit(1);
 });
